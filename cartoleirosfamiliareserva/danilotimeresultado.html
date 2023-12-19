@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>placar de jogos</title>
+  <link rel="stylesheet" href="danilotimesctilo.css">
+</head>
+<body>
+  <header>PLacar da Rodada</header>
+  
+  <section>
+    <div>
+      <section id="sec2">
+      <p><input type="radio" name="radtim" id="fla" checked>
+        <label for="fla">Flamengo</label>
+        <input type="radio" name="radtim" id="pal">
+         <label for="pal">Palmeiras</label>
+        </p>
+        <p>
+          <input type="button" value="Verificar Time" onclick="verificar()">
+          <div id="res"></div>
+        </p>
+         </section><br>
+
+      <section id="sec3">
+        <p><input type="radio" name="radtim1" id="san" checked>
+          <label for="san">Santos</label>
+          <input type="radio" name="radtim1" id="atl">
+         <label for="atl">A.Mineiro</label>
+        </p>
+        <p>
+          <input type="button" value="verificar Time" onclick="verificar1()">
+          <div id="res1"></div>
+        </p>
+      </section><br>
+
+      <section id="sec4">
+        <p><input type="radio" name="radtim2" id="int" checked>
+          <label for="int">Inter</label>
+           <input type="radio" name="radtim2" id="vas">
+          <label for="vas">Vasco</label>
+        </p>
+        <p>
+          <input type="button" value="Verificar Time" onclick="verificar2()">
+          <div id="res2"></div>
+        </p>
+         </section><br>
+         
+     </div>
+    
+  </section>
+
+  <script src="danilotimescript.js"></script>
+</body>
+</html>

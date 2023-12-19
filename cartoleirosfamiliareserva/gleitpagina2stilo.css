@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(209, 64, 64);
+    font: normal 18pt Arial;
+    text-align: center;
+    color: rgb(253, 208, 164);
+}
+img{
+    box-shadow: 10px 10px 10px rgb(7, 6, 6);
+}
+
+section{
+    width: 700px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 20px;
+    border: 5px solid #ffffff;
+    box-shadow: 15px 15px 10px rgb(12, 11, 11);
+    background-image: url('escudoflamengp.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    
+} p {
+    font: normal 20pt Arial;
+    color: black;
+}
